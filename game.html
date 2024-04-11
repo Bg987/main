@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="game.css">
+    <script src="game.js"></script>
+    <title>game</title>
+</head>
+<body>
+    <div class = "buttons">
+        <button id = "start" onclick= "start()">start</button>
+        <button id = "continue" onclick= "Continue()">continue</button>
+        <button id = "exit" onclick= "exit()">exit</button>
+    </div>
+    <br>
+    <table class ="board">
+        <tr id = "1strow" >
+            <td  id = "cell0" class = "box" onclick="process(this.id)">_</td>
+            <td id = "cell1" class = "box" onclick="process(this.id)">_</td>
+            <td id = "cell2" class = "box" onclick="process(this.id)">_</td>
+        </tr>
+        <tr id = "2ndrow">
+            <td id = "cell3" class = "box" onclick="process(this.id)">_</td>
+            <td id = "cell4" class = "box" onclick="process(this.id)">_</td>
+            <td id = "cell5" class = "box" onclick="process(this.id)">_</td>
+        </tr>
+        <tr id = "3rdrow">
+            <td id = "cell6" class = "box" onclick="process(this.id)">_</td>
+            <td id = "cell7" class = "box" onclick="process(this.id)">_</td>
+            <td id = "cell8" class = "box" onclick="process(this.id)">_</td>
+        </tr>
+    </table>
+    <br>
+    <div id = "gamestatus">welcome</div>
+        <br>
+    <table class = "leaderboard">
+        <tr>
+            <td id = "fname" class = "Box">p1</td>
+            <td id = "sname" class = "Box">p2</td>
+            <td id = "tie" class = "Box">Tie</td>
+        </tr>
+        <tr>
+            <td id = "fScore" class = "Box">0</td>
+            <td id = "sScore" class = "Box">0</td>
+            <td id = "tieScore" class = "Box">0</td>
+        </tr>
+    </table>
+</body>
+</html>

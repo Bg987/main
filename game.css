@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+    position: absolute;
+}
+.board{
+    height : 70vh;
+    width : 50vw;
+    font-size: 80px;
+    text-align: center;
+}
+.box{
+    height : 100px;
+    width : 100px; 
+    background-color: gray;
+    border :1px solid rgb(167, 85, 85);
+    color : rgb(89, 255, 132);
+    text-align: center; 
+}
+#gamestatus{
+    height : 10vh;
+    width : 30vw;
+    background-color: rgb(78, 74, 74);
+    color: rgb(89, 250, 132);
+    border :1px solid rgb(224, 9, 9);
+    margin-left : 55vw;
+    margin-top : -60vh;
+    font-size: 4vh; 
+    text-align: center;
+}
+#start,#restart,#continue,#exit{
+    height : 8vh;
+    width : 6vw;
+    background-color: rgb(17, 17, 15);
+    color: rgb(89, 216, 132);
+    text-align: center;
+}
+.Box{
+    height : 100px;
+    width : 100px;
+    border :1px solid rgb(224, 9, 9);
+    background-color: rgb(17, 17, 15);
+    text-align: center;
+}
+.leaderboard{
+    margin-top : 10vh;
+    margin-left : 55vw;
+    color :  rgb(89, 200, 132);
+    font-size: 4vh;
+    text-align: center;
+}
