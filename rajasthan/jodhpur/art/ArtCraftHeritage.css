@@ -1,0 +1,169 @@
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff8e1;
+            color: black;
+        }
+
+        header {
+            background-color: #4e342e;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            letter-spacing: 2px;
+        }
+
+        nav {
+            background-color: #3e2723;
+            overflow: hidden;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        nav li {
+            margin: 0;
+        }
+
+        nav a {
+            padding: 14px 20px;
+            display: block;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            background-color: #6d4c41;
+        }
+
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .intro {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .intro h2 {
+            font-size: 2em;
+            margin-bottom: 10px;
+            color: #4e342e;
+        }
+
+        .intro p {
+            font-size: 1.2em;
+            color: #555;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .artcrafts {
+            margin-bottom: 40px;
+            background-color: #fbe9e7;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+        }
+
+        .artcrafts img {
+            width: 40%;
+            height: auto;
+            border-radius: 8px;
+            margin-right: 20px;
+        }
+
+        .artcrafts-content {
+            width: 60%;
+        }
+
+        .artcrafts h3 {
+            font-size: 1.8em;
+            color: #bf360c;
+            margin-bottom: 10px;
+        }
+
+        .artcrafts p {
+            font-size: 1em;
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .artcrafts ul {
+            list-style-type: disc;
+            margin-left: 20px;
+            color: #666;
+        }
+
+        .artcrafts h4 {
+            font-size: 1.4em;
+            color: #bf360c;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #4e342e;
+            color: white;
+            margin-top: 40px;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 1em;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 767px) {
+            .artcrafts {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .artcrafts img {
+                width: 100%;
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+
+            .artcrafts-content {
+                width: 100%;
+            }
+
+            .intro h2 {
+                font-size: 1.6em;
+            }
+
+            .intro p {
+                font-size: 1em;
+            }
+
+            .artcrafts h3 {
+                font-size: 1.5em;
+            }
+
+            .artcrafts p {
+                font-size: 0.9em;
+            }
+        }
