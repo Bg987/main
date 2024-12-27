@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff8e1;
+            color: #333;
+        }
+
+        header {
+            background-color: #4e342e;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #3e2723;
+            overflow: hidden;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav li {
+            margin: 0;
+        }
+
+        nav a {
+            padding: 14px 20px;
+            display: block;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            background-color: #6d4c41;
+        }
+
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .intro,
+        .about-us {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .intro h2,
+        .about-us h2 {
+            font-size: 2em;
+            color: #4e342e;
+            margin-bottom: 10px;
+        }
+
+        .intro p,
+        .about-us p {
+            font-size: 1.2em;
+            color: #555;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .about-us {
+            background-color: #fbe9e7;
+            border-radius: 10px;
+            padding: 20px;
+        }
+
+        .team {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .team-member {
+            position: relative;
+            width: 200px;
+            height: 150px;
+            background-color: #fbe9e7;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+            padding: 20px;
+            color: #4e342e;
+            font-size: 1.1em;
+            transition: transform 0.3s;
+        }
+
+        .team-member:hover {
+            transform: scale(1.05);
+        }
+
+        .contact-info {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: #4e342e;
+            color: white;
+            display: none;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .team-member:hover .contact-info {
+            display: block;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #4e342e;
+            color: white;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 767px) {
+
+            .intro h2,
+            .about-us h2 {
+                font-size: 1.6em;
+            }
+
+            .intro p,
+            .about-us p {
+                font-size: 1em;
+            }
+
+            .team-member {
+                width: 150px;
+                height: 120px;
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>About Us</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+<li><a href="indiaMap.html" id="back-link">Back</a></li>
+         </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section class="intro">
+            <h2>Welcome to Our About Us Page</h2>
+            <p>We are a passionate team from Vishwakarma Government Engineering College, dedicated to exploring and
+                sharing the rich cultural heritage of India through our engaging projects.</p>
+        </section>
+        <section class="team">
+            <div class="team-member">
+                <p>Asari Bhavya</p>
+                <div class="contact-info">
+                    <p><a href="mailto:220170116002@vgecg.ac.in" style="color: white; text-decoration: none;">Email:
+                            220170116002@vgecg.ac.in</a></p>
+                    <p>Contact: +91 123 456 7890</p>
+                </div>
+            </div>
+            <div class="team-member">
+                <p>Godhaniya Bhavya</p>
+                <div class="contact-info">
+                    <p><a href="mailto:220170116016@vgecg.ac.in" style="color: white; text-decoration: none;">Email:
+                            220170116016@vgecg.ac.in</a></p>
+                    <p>Contact: +91 234 567 8901</p>
+                </div>
+            </div>
+            <div class="team-member">
+                <p>Pipalva Smit</p>
+                <div class="contact-info">
+                    <p><a href="mailto:220170116050@vgecg.ac.in" style="color: white; text-decoration: none;">Email:
+                            220170116050@vgecg.ac.in</a></p>
+                    <p>Contact: +91 345 678 9012</p>
+                </div>
+            </div>
+            <div class="team-member">
+                <p>Saravaiya Digvijaysinh</p>
+                <div class="contact-info">
+                    <p><a href="mailto:220170116059@vgecg.ac.in" style="color: white; text-decoration: none;">Email:
+                            220170116059@vgecg.ac.in</a></p>
+                    <p>Contact: +91 456 789 0123</p>
+                </div>
+            </div>
+            <div class="team-member">
+                <p>Dave Jyotirmay</p>
+                <div class="contact-info">
+                    <p><a href="mailto:220170116012@vgecg.ac.in" style="color: white; text-decoration: none;">Email:
+                            220170116012@vgecg.ac.in</a></p>
+                    <p>Contact: +91 567 890 1234</p>
+                </div>
+            </div>
+            <div class="team-member">
+                <p>Borkar Vaishnavi</p>
+                <div class="contact-info">
+                    <p><a href="mailto:220170107148@vgecg.ac.in" style="color: white; text-decoration: none;">Email:
+                            220170107148@vgecg.ac.in</a></p>
+                    <p>Contact: +91 678 901 2345</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>Traditional Trekkers</p>
+    </footer>
+
+    <script>
+        // JavaScript to set the "Back" link to the previous page
+        document.addEventListener("DOMContentLoaded", function() {
+            var backLink = document.getElementById("back-link");
+            if (document.referrer) {
+                backLink.href = document.referrer;
+            } else {
+                backLink.href = "RajasthanMap.html"; // Default fallback URL
+            }
+        });
+    </script>
+</body>
+
+</html>
