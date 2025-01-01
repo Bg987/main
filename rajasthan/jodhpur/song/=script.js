@@ -1,7 +1,7 @@
 function toggleLyrics(id) {
     var lyricsDiv = document.getElementById(id);
     lyricsDiv.style.display = lyricsDiv.style.display === 'none' ? 'block' : 'none';
-}
+}/*
 document.addEventListener('DOMContentLoaded', () => {
     let x;
     const loadingAnimation = document.getElementById("loading-animation");
@@ -77,3 +77,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
     xhr.send(data);
 });
+*/
