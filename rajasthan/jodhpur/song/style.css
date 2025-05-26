@@ -1,0 +1,246 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff8e1;
+    color: black;
+}
+
+header {
+    background-color: #4e342e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+}
+
+nav {
+    background-color: #3e2723;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav li {
+    margin: 0;
+}
+
+nav a {
+    padding: 14px 20px;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #6d4c41;
+}
+
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.intro h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #4e342e;
+}
+
+.intro p {
+    font-size: 1.2em;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.section {
+    margin-bottom: 40px;
+    background-color: #fbe9e7;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.section-content {
+    padding: 10px;
+}
+
+.section h3 {
+    font-size: 1.8em;
+    color: #bf360c;
+    margin-bottom: 10px;
+}
+
+.section p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #666;
+}
+
+.section h4 {
+    font-size: 1.4em;
+    color: #bf360c;
+    margin-bottom: 10px;
+}
+
+.lyrics {
+    font-size: 1em;
+    color: #333;
+    background-color: #fbe9e7;
+    padding: 10px;
+    border-radius: 8px;
+    white-space: pre-wrap;
+    margin: 10px 0;
+    display: none;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #bf360c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background-color: #8e24aa;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #4e342e;
+    color: white;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+}
+
+/* Responsive Styles */
+@media (max-width: 767px) {
+    .section {
+        padding: 10px;
+    }
+    .intro h2 {
+        font-size: 1.6em;
+    }
+
+    .intro p {
+        font-size: 1em;
+    }
+
+    .section h3 {
+        font-size: 1.5em;
+    }
+
+    .section p {
+        font-size: 0.9em;
+    }
+}
+#loading-animation {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    text-align: center;
+  }
+  
+  .spinner {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+    animation: rotation 1s linear infinite;
+  }
+  
+  .spinner div {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    animation: move 1s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  }
+  
+  .spinner .rect1 {
+    animation-delay: -0.2s;
+    background: #333;
+  }
+  
+  .spinner .rect2 {
+    animation-delay: -0.1s;
+    background: #666;
+  }
+  
+  .spinner .rect3 {
+    background: #999;
+  }
+  
+  .spinner .rect4 {
+    background: #ccc;
+  }
+  
+  .spinner .rect5 {
+    background: #fff;
+    animation-delay: 0.1s;
+  }
+  
+  @keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes move {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .hidden {
+    display: none;
+  }

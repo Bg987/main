@@ -1,0 +1,207 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: black;
+    background-color: #fff8e1;
+}
+
+/* Navigation */
+nav {
+    background-color: #4e342e;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #6d4c41;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero-section {
+    background-image: url('JodhapurBackground.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 30%;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Section Styling */
+section {
+    padding: 30px 0;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.2rem;
+    color: #4e342e;
+}
+
+/* Feature Buttons */
+.feature-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.feature-buttons a {
+    display: inline-block;
+    background-color: #4e342e;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.feature-buttons a:hover {
+    background-color: #6d4c41;
+}
+
+/* Timeline */
+.timeline {
+    background: #fbe9e7;
+}
+
+.timeline-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.timeline-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+    border-left: 5px solid #4e342e;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background: #fff;
+}
+
+.timeline-item:nth-child(odd) {
+    flex-direction: row;
+}
+
+.timeline-item:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.timeline-item img {
+    max-width: 150px;
+    border-radius: 10px;
+}
+
+/* Notable Landmarks */
+.landmarks .landmark {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+    background: #fff;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.landmarks .landmark:nth-child(odd) {
+    flex-direction: row;
+}
+
+.landmarks .landmark:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.landmarks .landmark img {
+    max-width: 150px;
+    border-radius: 10px;
+}
+
+/* Cultural Significance */
+.culture .culture-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+    background: #fff;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.culture .culture-item:nth-child(odd) {
+    flex-direction: row;
+}
+
+.culture .culture-item:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.culture .culture-item img {
+    max-width: 150px;
+    border-radius: 10px;
+}
+
+/* Footer */
+.footer {
+    background: #4e342e;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}

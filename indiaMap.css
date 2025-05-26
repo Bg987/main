@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('FrontPageBackground.jpeg'); /* Replace with your image path */
+    background-size: cover; /* Ensure the image covers the entire page */
+    background-position: center; /* Center the image */
+    background-attachment: fixed; /* Keeps the image fixed during scrolling */
+    color: gold; /* Set the font color to gold */
+    /* background-color: rgba(51, 51, 51, 0.8); */
+}
+
+header {
+    background-color: rgba(51, 51, 51, 0.8); /* Slightly transparent background */
+    color: gold; /* Set font color to gold */
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: gold; /* Ensure the color is gold for header text */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: gold; /* Set font color to gold for nav links */
+    text-decoration: none;
+}
+
+.main {
+    text-align: center; /* Center align content */
+    /* background-color: rgba(51, 51, 51, 0.8); */
+}
+
+#map {
+    margin-top: 30px ;
+    text-align: center;
+    position: relative;
+    /* background-color: rgba(51, 51, 51, 0.8); */
+}
+
+.map-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    max-width: 1200px; /* Increase the max-width to make the container larger */
+    margin: 0 auto; /* Center the container */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); Optional: Add shadow for better visibility */
+}
+      
+#state-details {
+    padding: 20px;
+    background-color: rgba(0, 0, 128, 0.8); /* Light navy background */
+    color: gold; /* Text color */
+    border-radius: 5px;
+    margin-top: 20px; /* Space between map and details */
+    display: inline-block; /* Center align with the map */
+    max-width: 1200px; /* Match container size */
+    text-align: center; /* Center align text */
+}
+
+.history-section {
+    padding: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    margin-top: 20px;
+    /* background-color: rgba(51, 51, 51, 0.8); */
+}
+
+.history-section h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.history-section p {
+    font-size: 1.2rem;
+    color: black;
+    max-width: 800px;
+    margin: 0 auto;
+}

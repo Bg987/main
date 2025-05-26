@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traditional Songs of Jodhpur</title>
+    <script src="=script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="header-title">Traditional Songs of Jodhpur</h1>
+        <nav>
+            <ul>
+                <li><a href="../../RajasthanMap.html" id="nav-home">Home</a></li>
+                <li><a href="../culinary/CulinaryHeritage.html" id="nav-culinary">Culinary Heritage</a>
+                </li>
+                <li><a href="../art/ArtCraftHeritage.html" id="nav-art">ArtCraft Heritage</a></li>
+                <li><a href="../dance/FolkDance.html" id="nav-folk-dance">Experience Folk Dance</a></li>
+                <li><a href="../jodhpur.html" id="nav-back">Back</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="intro" class="intro">
+            <h2 id="intro-title">Discover the Traditional Songs of Jodhpur</h2>
+            <p id="intro-text">Experience the soulful melodies and traditional rhythms of Jodhpur. These
+                songs capture the essence of the region’s cultural heritage and offer a glimpse into the musical
+                traditions of this historic city.</p>
+        </section>
+
+        <!-- Sections for each song -->
+        <!-- Example for one section; repeat similarly for others -->
+        <section id="moomal">
+            <div class="section">
+                <div class="section-content">
+                    <h3 id="moomal-title">Moomal</h3>
+                    <div class="history">
+                        <h4 id="moomal-history-title">History:</h4>
+                        <p id="moomal-history">The song “Moomal” is a famous Rajasthani folk song that
+                            tells the story of the legendary Moomal, a prominent figure in local folklore. This song has
+                            been a part of Jodhpur’s musical tradition for generations.</p>
+                    </div>
+                    <div class="description">
+                        <h4 id="moomal-description-title">Description:</h4>
+                        <p id="moomal-description">“Moomal” is known for its evocative lyrics and
+                            emotional depth. It is often performed during traditional festivals and gatherings,
+                            reflecting the rich storytelling tradition of Rajasthan.</p>
+                    </div>
+                    <audio id="moomal-audio" controls>
+                        <source src="moomal.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio><br>
+                    <button class="button" onclick="toggleLyrics('moomal-lyrics')"
+                        id="show-lyrics-button">Show Lyrics</button>
+                    <div id="moomal-lyrics" class="lyrics" style="display:none;">
+                        Moomal Kille Nee Ludhrave<br>
+                        Rave<br>
+                        O Ree Aankh Moomal Ree Mad Ra Pyaaliya<br>
+                        Pyaaree Pyaaree Moomal<br>
+                        Ludhrave Ree Moomal<br>
+                        Haathe Le Jaavo Amaraane Vaale Desh<br><br>
+
+                        Daant Moomal Ra Daadam Beej Jyo<br>
+                        Ludhrave Ree Moomal<br>
+                        Mhaare Chide Moomal<br>
+                        Haathe Le Jaavo Naadhal Jathe Vaale Des<br>
+                        Mhaare Chide Moomal<br>
+                        Haathe Le Jaavo Dhoro Re Vaale Des<br>
+                        Jathe Vaale Desh<br>
+                        Moomal Kille Nee Ludhrave<br>
+                        Rave<br>
+                        Pyaaree Pyaaree Moomal Ne Haale To Le Chaalo<br>
+                        Dhora Re Vaale Des</div>
+                </div>
+            </div>
+
+
+        </section>
+        <!-- Add more sections similarly -->
+
+    </div>
+
+    <footer>
+        <p data-translate-id="footer-text">Traditional Trekkers</p>
+    </footer>
+
+<!--    <script>
+        function toggleLyrics(id) {
+            var lyricsDiv = document.getElementById(id);
+            lyricsDiv.style.display = lyricsDiv.style.display === 'none' ? 'block' : 'none';
+        }
+    </script>
+-->
+<div id="loading-animation" class="hidden">
+    <div class="spinner">
+      <div class="rect1"></div>
+      <div class="rect2"></div>
+      <div class="rect3"></div>
+      <div class="rect4"></div>
+      <div class="rect5"></div>
+    </div>
+    <p id="loading-text"><b>Translating text...</b></p>
+  </div>
+</body>
+
+</html>
